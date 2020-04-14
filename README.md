@@ -1,1 +1,1 @@
-Template for Electron navigation between pages and menue with Inter Process Communication
+Template for Electron basic desktop app for navigation between pages and menus with Inter Process Communication

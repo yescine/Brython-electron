@@ -1,7 +1,7 @@
 {
-  "name": "electron-quick-start",
+  "name": "electron-brython",
   "version": "1.0.0",
-  "description": "A minimal Electron application",
+  "description": "Combining javascript and python technologies",
   "main": "main.js",
   "scripts": {
     "start": "electron ."
@@ -18,5 +18,9 @@
   "license": "CC0-1.0",
   "devDependencies": {
     "electron": "^8.0.0"
+  },
+  "dependencies": {
+    "bootstrap": "^4.4.1",
+    "brython": "^3.8.8"
   }
 }

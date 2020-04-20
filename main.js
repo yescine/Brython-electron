@@ -27,7 +27,7 @@ function createWindow () {
 // Some APIs can only be used after this event occurs.
 app.on('ready', createWindow)
 ipcMain.on('GoTo_about', () => {
-	mainWindow.loadFile('./views/about.html');
+  mainWindow.loadFile('./views/about.html');
 });
 ipcMain.on('GoTo_process', () => {
 	mainWindow.loadFile('./views/process.html');
